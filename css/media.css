@@ -254,8 +254,8 @@
     }
 
     .play-pause {
-        right: 16%;
-        bottom: 18%;
+        right: 17%;
+        bottom: 25%;
         z-index: 10;
     }
 
@@ -298,6 +298,18 @@
 
     .footer {
         text-align: center;
+    }
+}
+
+@media(max-width:575px){
+    .owl-dots {
+        bottom: 35%;
+    }
+
+    .play-pause {
+        right: 8%;
+        bottom: 30%;
+        z-index: 10;
     }
 }
 
