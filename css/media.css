@@ -303,12 +303,24 @@
 
 @media(max-width:575px){
     .owl-dots {
-        bottom: 35%;
+        bottom: 31%;
     }
 
     .play-pause {
         right: 8%;
-        bottom: 30%;
+        bottom: 24%;
+        z-index: 10;
+    }
+}
+
+@media(max-width:500px){
+    .owl-dots {
+        bottom: 134px;
+    }
+
+    .play-pause {
+        right: 8%;
+        bottom: 256px;
         z-index: 10;
     }
 }
@@ -336,12 +348,12 @@
 
 @media(max-width:375px) {
     .owl-dots {
-        bottom: 45%;
+        bottom: 170PX;
     }
 
     .play-pause {
-        right: 7%;
-        bottom: 25%;
+        right: 8%;
+        bottom: 216PX;
         z-index: 10;
     }
 }
