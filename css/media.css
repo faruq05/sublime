@@ -1,15 +1,82 @@
+@media(max-width:1880px) {
+    .play-pause {
+        right: 17%;
+        bottom: -13%;
+        z-index: 10;
+    }
+}
+
+@media(max-width:1600px) {
+    .play-pause {
+        right: 13%;
+        bottom: -13%;
+        z-index: 10;
+    }
+}
+
+@media(max-width:1440px) {
+    .play-pause {
+        right: 6%;
+        bottom: -14%;
+        z-index: 10;
+    }
+}
+
+@media(max-width:1399px) {
+    .play-pause {
+        right: 10%;
+        bottom: -10%;
+        z-index: 10;
+    }
+}
+
+@media(max-width:1280px) {
+    .play-pause {
+        right: 8%;
+        bottom: -10%;
+        z-index: 10;
+    }
+}
+
+@media(max-width:1199px) {
+    .owl-dots {
+        bottom: 20%;
+    }
+
+    .play-pause {
+        right: 11%;
+        bottom: -2%;
+        z-index: 10;
+    }
+}
+
 @media(max-width:1129px) {
 
-    h1{
+    h1 {
         width: 80%;
     }
+
     .hero_buttons {
         width: 66%;
         margin: 20px auto;
     }
 
-    .feature_title h2{
+    .feature_title h2 {
         width: 25%;
+    }
+
+
+}
+
+@media(max-width:1024px) {
+    .owl-dots {
+        bottom: 20%;
+    }
+
+    .play-pause {
+        right: 5%;
+        bottom: 7%;
+        z-index: 10;
     }
 }
 
@@ -55,6 +122,16 @@
         margin: 10px 0px;
     }
 
+    .owl-dots {
+        bottom: 28%;
+    }
+
+    .play-pause {
+        right: 15%;
+        bottom: 14%;
+        z-index: 10;
+    }
+
     .feature {}
 
     .feature_content {
@@ -89,9 +166,182 @@
         padding: 20px;
         height: auto;
         margin-bottom: 20px;
+        min-height: 285px;
     }
 
     .footer {
         text-align: center;
+    }
+}
+
+@media(max-width:767px) {
+    h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .nav-link {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .hero {
+        padding: 20px 15px;
+    }
+
+    .hero .row {
+        min-height: auto;
+        align-items: center;
+    }
+
+
+    .hero_buttons {
+        flex-direction: column;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .hero_buttons p {
+        margin: 10px 0px;
+    }
+
+    .disp_des {
+        padding: 30px 15px;
+    }
+
+    .disp_des p {
+        font-size: 14px;
+    }
+
+    .disp_btn {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .theme_tab {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+    }
+
+    .version_tab {
+        display: flex;
+        /* flex-direction: column; */
+        width: 45%;
+        align-items: flex-end;
+        justify-content: end;
+    }
+
+
+    .owl-dots {
+        bottom: 31%;
+    }
+
+    .play-pause {
+        right: 16%;
+        bottom: 18%;
+        z-index: 10;
+    }
+
+    .feature {}
+
+    .feature_content {
+        padding: 30px 15px;
+    }
+
+    .feature_title h2 {
+        width: 100%;
+    }
+
+    .ft_des {
+        flex-direction: column;
+    }
+
+    .ft-box {
+        margin: 10px 10px 30px 10px;
+    }
+
+    .ft_des img {
+        padding: 20px 0px;
+    }
+
+    .ft_des p {
+        padding: 0;
+        text-align: center;
+    }
+
+    .cta_content {
+        padding: 20px;
+    }
+
+    .cta_box {
+        padding: 20px;
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+@media(max-width:425px) {
+    .version_tab {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        align-items: flex-end;
+        justify-content: end;
+    }
+
+    .owl-dots {
+        bottom: 41%;
+    }
+
+    .play-pause {
+        right: 7%;
+        bottom: 22%;
+        z-index: 10;
+    }
+}
+
+
+@media(max-width:375px) {
+    .owl-dots {
+        bottom: 45%;
+    }
+
+    .play-pause {
+        right: 7%;
+        bottom: 25%;
+        z-index: 10;
+    }
+}
+
+@media(max-width:320px) {
+    .owl-dots {
+        bottom: 52%;
+    }
+
+    .play-pause {
+        right: 7%;
+        bottom: 28%;
+        z-index: 10;
     }
 }

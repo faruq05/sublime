@@ -28,7 +28,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-icon"><i class="fa-solid fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -61,7 +61,7 @@
     <div class="hero cp-20">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 p-0">
                     <div class="hero_content text-center">
                         <h1>Demo Content, demo content</h1>
                         <div class="hero_buttons">
@@ -70,7 +70,235 @@
                             <a href="#" class="new">See What's New</a>
                         </div>
                     </div>
-                    <div class="hero_image">
+                    <!-- Play and Pause buttons -->
+
+                    <div class="banner_images">
+                        <button class="play-pause">
+                            <i class="fa-solid fa-play"></i>
+                            <i class="fa-solid fa-pause"></i>
+                        </button>
+                        <div class="disp_tab">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <div class="theme_tab">
+                                    <!-- <li class="nav-item" role="presentation">
+                                        <button class="nav-link disp_btn active" id="themetab_one-tab"
+                                            data-bs-toggle="pill" data-bs-target="#themetab_one" type="button"
+                                            role="tab" aria-controls="themetab_one" aria-selected="true">Theme1
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link disp_btn" id="themetab_two-tab" data-bs-toggle="pill"
+                                            data-bs-target="#themetab_two" type="button" role="tab"
+                                            aria-controls="themetab_two" aria-selected="false">Theme2</button>
+                                    </li> -->
+                                    <li>
+                                        <button class="disp_btn active">Theme 1</button>
+                                        <button class="disp_btn">Theme 2</button>
+                                    </li>
+                                </div>
+                                <div class="version_tab">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link disp_btn active" id="pills-tabone-tab"
+                                            data-bs-toggle="pill" data-bs-target="#pills-tabone" type="button"
+                                            role="tab" aria-controls="pills-tabone" aria-selected="true">Tab One
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link disp_btn" id="pills-tabtwo-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-tabtwo" type="button" role="tab"
+                                            aria-controls="pills-tabtwo" aria-selected="false">Tab Two</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link disp_btn" id="pills-tabthree-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-tabthree" type="button" role="tab"
+                                            aria-controls="pills-tabthree" aria-selected="false">Tab Three</button>
+                                    </li>
+                                </div>
+                            </ul>
+
+
+                            <div class="tab-content" id="pills-tabContent">
+                                <!-- tabone tab content -->
+                                <div class="tab-pane fade active show" id="pills-tabone" role="tabpanel"
+                                    aria-labelledby="pills-tabone-tab">
+                                    <div class="owl-carousel">
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 1.1.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 1.2.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 1.3.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- tabtwo tab content -->
+                                <div class="tab-pane fade" id="pills-tabtwo" role="tabpanel"
+                                    aria-labelledby="pills-tabtwo-tab">
+                                    <div class="owl-carousel">
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 2.1.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 2.2.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 2.3.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- tabthree2 tab content -->
+                                <div class="tab-pane fade" id="pills-tabthree" role="tabpanel"
+                                    aria-labelledby="pills-tabthree-tab">
+                                    <div class="owl-carousel">
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 3.1.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 3.2.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet 3.3.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                        <div class="disp_image">
+                                            <img src="images/contentimg1.jpg" class="img-fluid" alt="">
+                                            <div class="disp_des">
+                                                <p><b>Lorem ipsum dolor sit amet.</b></p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                                                    molestiae
+                                                    voluptas
+                                                    ullam, facilis mollitia et, ad incidunt tempora recusandae aperiam a
+                                                    tenetur
+                                                    quidem
+                                                    asperiores perspiciatis!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
 
                     </div>
                 </div>
@@ -92,96 +320,144 @@
 
                 <div class="col-md-6">
                     <div class="ft-box">
-                        <h3>Demo Content</h3>
+                        <h3>Demo Content1</h3>
                         <div class="ft_des">
-                            <img src="images/icon_gpu.svg" class="img-fluid" alt="">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
-                                Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
-                                Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12">
+                                    <img src="images/icon_gpu.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-12">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
+                                        Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
+                                        Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="ft-box">
-                        <h3>Demo Content</h3>
+                        <h3>Demo Content2</h3>
                         <div class="ft_des">
-                            <img src="images/icon_gpu.svg" class="img-fluid" alt="">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
-                                Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
-                                Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12">
+                                    <img src="images/icon_arm64.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-12">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
+                                        Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
+                                        Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="ft-box">
-                        <h3>Demo Content</h3>
+                        <h3>Demo Content3</h3>
                         <div class="ft_des">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
-                                Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
-                                Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
-                            <img src="images/icon_gpu.svg" class="img-fluid" alt="">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 order-lg-2 order-1">
+                                    <img src="images/icon_dark_mode.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-12 order-lg-1 order-2">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
+                                        Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
+                                        Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="ft-box">
-                        <h3>Demo Content</h3>
+                        <h3>Demo Content4</h3>
                         <div class="ft_des">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
-                                Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
-                                Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
-                            <img src="images/icon_gpu.svg" class="img-fluid" alt="">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 order-lg-2 order-1">
+                                    <img src="images/icon_auto_complete.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-12 order-lg-1 order-2">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
+                                        Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
+                                        Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="ft-box">
-                        <h3>Demo Content</h3>
+                        <h3>Demo Content5</h3>
                         <div class="ft_des">
-                            <img src="images/icon_gpu.svg" class="img-fluid" alt="">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
-                                Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
-                                Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12">
+                                    <img src="images/icon_python.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-12">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
+                                        Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
+                                        Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="ft-box">
-                        <h3>Demo Content</h3>
+                        <h3>Demo Content6</h3>
                         <div class="ft_des">
-                            <img src="images/icon_gpu.svg" class="img-fluid" alt="">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
-                                Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
-                                Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12">
+                                    <img src="images/icon_syntax.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-12">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
+                                        Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
+                                        Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="ft-box">
-                        <h3>Demo Content</h3>
+                        <h3>Demo Content7</h3>
                         <div class="ft_des">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
-                                Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
-                                Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
-                            <img src="images/icon_gpu.svg" class="img-fluid" alt="">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 order-lg-2 order-1">
+                                    <img src="images/icon_tab_multi.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-12 order-lg-1 order-2">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
+                                        Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
+                                        Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6">
                     <div class="ft-box">
-                        <h3>Demo Content</h3>
+                        <h3>Demo Content8</h3>
                         <div class="ft_des">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
-                                Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
-                                Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
-                            <img src="images/icon_gpu.svg" class="img-fluid" alt="">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-12 order-lg-2 order-1">
+                                    <img src="images/icon_ts.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-lg-8 col-md-12 order-lg-1 order-2">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, ipsa?
+                                        Minus harum ea dolores unde laborum earum deserunt assumenda quam, labore eum.
+                                        Debitis officia, deleniti accusamus unde reprehenderit non aut!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -238,9 +514,60 @@
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var owl = $(".owl-carousel");
+            var isPlaying = true; // Initial state is playing
+
+            owl.owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                smartSpeed: 500,
+                nav: false,
+                dots: true,
+                touchDrag: true,
+                mouseDrag: true,
+                autoplayHoverPause: true
+            });
+
+            // Play/Pause button click event
+            $('.play-pause').on('click', function () {
+                if (isPlaying) {
+                    owl.trigger('stop.owl.autoplay');
+                    isPlaying = false;
+                } else {
+                    owl.trigger('play.owl.autoplay', [1000]);
+                    isPlaying = true;
+                }
+                togglePlayPauseIcon();
+            });
+
+            // Function to toggle play/pause icon
+            function togglePlayPauseIcon() {
+                var iconContainer = $('.play-pause');
+                var playIcon = iconContainer.find('.fa-pause');
+                var pauseIcon = iconContainer.find('.fa-play');
+
+                if (isPlaying) {
+                    playIcon.show();
+                    pauseIcon.hide();
+                } else {
+                    playIcon.hide();
+                    pauseIcon.show();
+                }
+            }
+
+            // Initially set the correct icon
+            togglePlayPauseIcon();
+        });
+    </script>
 </body>
 
 </html>
