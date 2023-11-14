@@ -222,6 +222,7 @@ p {
 }
 
 .play-pause {
+    display: none;
     background: none;
     box-shadow: none;
     border: none;
