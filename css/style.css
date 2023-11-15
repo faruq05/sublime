@@ -28,8 +28,8 @@ body {
     --cs-bg: #0d0d0d;
     --cs-primary: #ffffffee;
     --cs-txtbg: #0d0d0d45;
-    --cs-btn: #387cbc;
-    --cs-btnhover: #2d6396;
+    --cs-btn: #85a270;
+    --cs-btnhover: #5d7150;
     --cs-white: #fff;
 }
 
@@ -109,8 +109,8 @@ p {
 
 /* hero starts */
 .hero {
-    background: rgb(63, 99, 135);
-    background: linear-gradient(145deg, rgba(63, 99, 135, 1) 0%, rgba(161, 51, 107, 1) 100%);
+    background: rgb(198,94,98);
+    background: linear-gradient(145deg, rgba(198,94,98,1) 0%, rgba(227,175,111,1) 100%);
 }
 
 .hero .row {
@@ -335,7 +335,7 @@ p {
 
 /* cta starts */
 .cta_content {
-    background-color: #896991;
+    background-color: #e3af6f;
     padding: 40px;
 }
 
